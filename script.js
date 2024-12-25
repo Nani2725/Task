@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initial mock data for comments
     const commentsData = [
-        { id: 1, username: 'John Doe', text: 'This is a great post!', likes: 3, liked: false, replies: [] },
-        { id: 2, username: 'Jane Smith', text: 'I totally agree with you!', likes: 2, liked: false, replies: [] }
+        { id: 1, username: 'Sai', text: 'This is a great post!', likes: 3, liked: false, replies: [] },
+        { id: 2, username: 'Leela', text: 'I totally agree with you!', likes: 2, liked: false, replies: [] }
     ];
 
     // Function to render comments and their replies
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             commentHeader.classList.add('comment-header');
             
             const avatar = document.createElement('img');
-            avatar.src = "https://via.placeholder.com/40";
+            avatar.src = "img/profile.jpg";
             avatar.alt = "Avatar";
             avatar.classList.add('comment-avatar');
             
